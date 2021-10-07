@@ -1,0 +1,90 @@
+.Navbar {
+	display: flex;
+	position: absolute;
+	justify-content: flex-start;
+	z-index: 10;
+	color: white;
+	margin-top: 40px;
+}
+
+.Navbar_Home_Button {
+	display: flex;
+	border: 4px ridge rgba(55, 55, 55, 0.5);
+	border-radius: 50%;
+	height: 175px;
+	width: 175px;
+	/* font-size: 35px; */
+	margin: 5px;
+	font-size: 35px;
+	background-color: #91f585;
+	font-family: 'Nunito', sans-serif;
+	color: black;
+	font-weight: 900;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.Navbar_Nav_Button {
+	display: flex;
+	position: relative;
+	border: 4px ridge rgba(55, 55, 55, 0.5);
+	border-radius: 50%;
+	height: 65px;
+	width: 65px;
+	margin: 5px;
+	font-size: 15px;
+	padding: 3px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+	color: black;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.Nav1 {
+	background-color: #2ccdd4;
+	left: -25px;
+	top: -35px;
+}
+
+.Nav2 {
+	background-color: #26bec5;
+	left: -85px;
+	top: 50px;
+}
+
+.Nav3 {
+	background-color: #20a8ae;
+	left: -195px;
+	top: 135px;
+}
+
+.Nav4 {
+	background-color: #1c9ba0;
+	left: -360px;
+	top: 185px;
+}
+
+.Nav5 {
+	background-color: #158589;
+	left: -540px;
+	top: 185px;
+}
+
+.Navbar_Home_Button:hover {
+	filter: brightness(115%);
+}
+
+.Navbar_Nav_Button:hover {
+	background-color: aqua;
+}
+
+.disable_select {
+	user-select: none; /* supported by Chrome and Opera */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+}

@@ -1,0 +1,10 @@
+.Home {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.Home_h1 {
+	color: #c7c7c7;
+	font-size: 60px;
+}
